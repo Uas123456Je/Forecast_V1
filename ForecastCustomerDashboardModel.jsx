@@ -1,6 +1,4 @@
-import React, { useMemo, useState } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import React from "react";
 
 const rows = [
   { customer: "Brand A", style: "Gravel Bib 2026", category: "Bottoms", expectedShipDate: "2026-06-14", poPlacedQty: 4800, forecastQty: 6200, forecastTopsQty: 0, forecastBottomsQty: 6200, mustPoDate: "2026-04-30", reservedCapacity: 6500, unboundCapacity: 1300, status: "PO Gap" },
